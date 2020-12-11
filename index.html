@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Author: Tom White
+        Updated: Marv Olson starting Friday, May 8, 2015
+                Redesign and implement web site using Bootstrap 
+    -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Colors  -->
+    <!-- Primary: #FFEFA4  -->
+    <!-- Secondary: #77120D  -->
+    <!-- Tertiary: #0D7735  -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+    
+    <title>E-Systems/Raytheon Garland Retirees</title>
+<!--+++Start replace+++-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--Start Common Header-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap and jQuery links-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- My Customer styles-->
+    <link rel="stylesheet" href="./esyStyle.css" type="text/css"/>
+    <!-- ESY Favicon-->
+    <!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="/icons/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/icons/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/icons/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/icons/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
+	<link rel="apple-touch-icon" href="/icons/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/icons/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/icons/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/icons/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/icons/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/icons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/icons/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/icons/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/icons/favicon-144.png">
+	<meta name="msapplication-config" content="icons/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->
+</head>
+  
+<body>
+    
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Header -->
+    <div class="container" id="mainHeader">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <img src="./image/ESYFlag.png" class="img-rounded" id="logo" alt="ESY Flag">
+            </div>
+            <div  class="col-sm-6 col-md-8 col-lg-9" id="homeHeader">
+                <p>E-Systems &amp; Raytheon Garland Retirees</p>
+                <div id="social">
+                    <a href="https://www.facebook.com/groups/ESystemsEmployees/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="E-Systems" /></a>
+                    <a href="https://www.facebook.com/groups/507745532617230/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="Rayhteon" /></a>
+                    <p id="socialAlpha">ESY &nbsp; &nbsp; &nbsp; Ray &nbsp; </p>
+                </div>
+            </div>
+        </div>
+    </div>
+                           
+    <!-- Navigation Bar-->  
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ESY Retiree</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Monthly Meetings <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./wwh.html">When, where, how</a></li>
+                <li><a href="./RetireesHistory.html">History</a></li>
+                <li><a href="./PreviousMeetings.html">Previous Meetings</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Retirees <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./retireeList/RetireesList.pdf">Retiree List</a></li>
+                <li><a href="ListPW.jpg">User Name/Password for Retiree List </a></li>
+                <li><a href="./obituaries.html">Obituaries</a></li>
+                <li><a href="./deceasedList/Deaths%20-%20Deceased.pdf">Deceased List</a></li>
+                <li><a href="groupPhotos.html">Retiree Photos</a></li>
+                <li><a href="LettersFromRetirees.html">Retiree Letters</a></li>
+            </ul>
+            </li>
+            <li><a href="./Photos.html">Photos</a></li>
+            <li><a href="./Stories.html">Stories</a></li>
+            <li><a href="./raytheonBenefits.html">Forms/Benefits</a></li>
+            <li><a href="./mailchimpSubscribe.html">Subscribe</a></li>
+            <li><a href="./usefulLinks.html">Useful Links</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="./contactUs.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+        </ul>
+    </div> 
+  </div>
+</nav>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Google Search Box -->
+<div class="gcse-searchbox">
+<script>
+  (function() {
+    var cx = '012621257295864788119:jzxjcwuba_s';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<br>
+</div>  
+<!--End common header-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--+++Stop replace+++-->
+
+
+<div class="container">
+<div class="row">
+<!-- Center Column --
+<!-- <div class="col-lg-8" style="background-color:white;"> -->
+<div class="col-lg-8" >
+ 
+<div id="announce" id="top"> 
+    <article class="boxOutline">
+    <h3 class="h3Head">Announcements</h3>
+ <!--   <p>Mark your calendars! The <span class="bigBold">June</span> meeting will be on June 24th, 11AM at Furr's Cafeteria in Garland if the COVID-19 is contained.</p> -->
+
+     <p><span class="bigBold">Monthly Meetings - Halted for the time being</span></p>
+    <hr>
+      
+      <h4>The Arecibo Observatory in Puerto Rico Collapses (2020-12-02</h4>
+      <p>The enormous Arecibo radio telescope in Puerto Rico collapsed unexpectedly on the  morning of December 1. I was told by old timers back when I hired on in 1974 we had constructed it or helped construct it.  Perhaps some of you can confirm or deny this?  For more information: <a href="https://mailchi.mp/cb4690c01380/arecibo-collapse-video-history" target="_blank">click here</a></p>
+      
+      <h4>John Mannning Passed Away (2020-11-29</h4>
+      <p>John Manning, age 73, resident of Forney, TX, for 23 years, passed from this life on November 29, 2020. For more information: <a href="https://www.resthavenfuneral.com/obituaries/John-Manning-18/#!/Obituary" target="_blank">Click Here</a></p>
+      
+      
+      <h4>Medicare Premium, Deductibles and Coinsurance Costs for 2021 (2020-11-08)</h4>
+      <p>Summary of the Medicare Premium, Deductibles and Coinsurance Costs for 2021 is available at: <a href="https://mailchi.mp/6d3c83fa7bf8/medicare-premium-deductibles-and-coinsurance-costs-for-2021" target="_blank">Click Here</a></p>
+      
+      <h4>Bill Bedingfield Passed Away (2020-10-28)</h4>
+      <p>Bill Bedingfield passed away on October 28, 2020.  For more information: <a href="https://mailchi.mp/5dc3ef7ccdfb/billbedingfield-passed-away" target="_blank">Click Here</a></p>
+      
+      <h4>Al Gondran passed away (2020-10-22)</h4>
+      <p>Al Gondran passed away on October 22, 2020. For more information: 
+          <a href="https://mailchi.mp/4983e1322718/al-gondran-passed-away", target="_blank">Click Here </a></p>
+ 
+  
+  
+    <h4>Submit your Stories and Photos NOW! (2020-04-02)</h4>
+    <p>Click the "My Story" button below and submit your story our <span class="bold">New Stories page</span>. </p>
+    <p><a href="./Stories/MyStory.html" target="_blank"><img src="./Stories/MyStoryButton250.jpg"></a>&nbsp;&nbsp;Submit your Garland ESY/Raytheon stories now!! </p>
+    </article>
+</div>
+
+<hr>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- This months meeting minutes start  -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="row">
+<div class="col-lg-12" style="background-color:white;">
+<h2 class="h2Head">E-SYSTEMS/RAYTHEON RETIREES LUNCH GROUP</h2>
+<h3 class="h3Head">By Eileen Wahlstrom</h3>
+<h3 class="h3Head">July, August, September, October 2020</h3>
+    
+    <h2 class="h2Head">Remember</h2>
+    <p>The communities have opened up but the virus is still taking lives with record number of daily cases in some counties. Furr’s has resumed serving but not Buffet style. Our generation is vulnerable so we need to remain as safe as possible. Stay home, if you must go out please continue to practice social distancing of six feet and personal hygiene measures. Wear a mask if you can..</p>
+    <h2 class="h2Head">Stay away from the virus of 2020</h2>
+    
+  
+<h2>From Jerry Bryant:</h2>
+<h4>JUST A LITTLE HELPFUL INFORMATION.</h4>
+<h4>STROKE HAS A NEW INDICATOR </h4>
+  <p>They say if you forward this to ten people, you stand a chance of saving one life. Blood Clots/Stroke —They Now Have a Fourth Indicator, The Tongue.</p>
+  <p>STROKE: Remember the 1st Three Letters….. S. T. R. STROKE IDENTIFICATION:</p> 
+  <p>During a BBQ, Jane stumbled and took a little fall — she assured everyone that she was fine (they offered to call paramedics) she said she had just tripped over a brick because of her new shoes. They got her cleaned up and got her a new plate of food. While she appeared a bit shaken up, Jane went about enjoying herself the rest of the evening. Jane’s husband called later telling everyone that his wife had been taken to the hospital — (at 6:00 p.m. Jane passed away). She had suffered a stroke at the BBQ. Had they known how to identify the signs of a stroke, perhaps Jane would be with us today. Some don’t die. They end up in a helpless, hopeless condition instead. It only takes a minute to read this. A neurologist says that if he can get to a stroke victim <span class="danger">within 3 hours</span> he can totally reverse the effects of a stroke…totally. He said the trick was getting a stroke recognized, diagnosed, and then getting the patient medically cared for within 3 hours, which is tough.</p>
+  
+  <p>RECOGNIZING A STROKE Thank God for the sense to remember the ‘3’ steps, STR. Read and Learn! Sometimes symptoms of a stroke are difficult to identify. Unfortunately, the lack of awareness spells disaster. The stroke victim may suffer severe brain damage when people nearby fail to recognize the symptoms of a stroke.</p> 
+    
+  <p>Now doctors say a bystander can recognize a stroke by asking three simple questions. <span class="danger">S* Ask the individual to SMILE. T* Ask the person to TALK and SPEAK A SIMPLE SENTENCE (Coherently) (i.e. Chicken Soup) R* Ask him or her to RAISE BOTH ARMS</span>. If he or she has trouble with ANY ONE of these tasks, call emergency number immediately and describe the symptoms to the dispatcher. <span class="danger">New Sign of a Stroke: Stick out Your Tongue</span>. NOTE: Another ‘sign’ of a stroke is this. Ask the person to ‘stick’ out his tongue. If the tongue is ‘crooked’, if it goes to one side or the other, that is also an indication of a stroke. A cardiologist says if everyone who gets this information sends it to 10 people, you can bet that at least one life will be saved.</p>
+  
+  <p>for more informations on how to identify Strokes <a href="https://www.cdc.gov/stroke/signs_symptoms.htm" target="_blank">Click Here</a></p>
+
+  
+  
+    <p><span class="bigP">Present: </span>0</p>
+    <p><span class="bigP">First Time: </span>0</p>
+    <p><span class="bigP">Long Time: </span>0</p>
+    <p><span class="bigP">Guest: </span>0</p>
+    <hr>
+    <h3>SICKNESS:</h3>
+    
+    <p class="bold">I pray that none of us retirees have caught the virus. Hopefully, everyone is staying as safe as possible. If you feel sick, please isolate until you know what’s wrong. If you need anything reach out through email, Facebook, phone. We are in this together.</p>
+  
+    <p><span class="bold">Yvonne McGregor - </span>Yvonne McGregor fell and broke her hip mid September. Caregiver found her on the floor when she came in on Monday morning. She had a partial hip replacement at Medical City in Plano. She was moved to a rehab facility. The Healthcare Resort of Plano, 3325 W. Plano Pkwy, Plano, Tx 75075. Bet she would love to get cards from us. Please add Yvonne and all her family to your prayers.</p>
+    <p>I have missed my friend Yvonne but have been lax in calling her. <br>
+    Hope you all are doing well and hope to see you in early December. <br>
+    Take care of yourself and your family. <br>
+    Miss you, Vicky Carlson</p>
+    <p>Update (Oct 20) from Vicki: Yvonne is better. Her spirits are good her daughter said. Still at rehab. Had her up walking with a walker the other day. Short term memory not to good but who’s is these days!</p>
+  
+    <p><span class="bold">Chris Reynolds –  </span>Had her hip replacement surgery March 16th. Had knee replacement surgery August 17th. She has recovered from both and is on the move! Photography abounds on her Facebook page!</p>
+
+
+    <p><span class="bold">George Carlsness: </span>Update on George from Joanne’s Facebook post:</p>
+    <p>George is up and about and tending to his prayer garden.</p>
+    <p>7/14/20</p>
+    <p>Update from George’s surgical oncologist:</p>
+    <blockquote>"At 3 months past his surgery, George’s CT scan results were good, no sign of tumors. Everything looked good with his digestive system from the surgery. We thank God for this progress and good report. Thank you all for your thoughts, prayers and support for the past 3 months. Please continue to pray for him as he continues the remainder of his chemotherapy. He has completed three treatments and has nine treatments to go, ending sometime near Thanksgiving"</blockquote>
+    
+    <p><span class="bold">Pat Bryner: </span>Stroke March 12th. Is rehabbing with her daughters up north. You can send Pat a card at this address: <span class="bold">10845 Kingston Ave., Huntington Woods, MI  48070</span></p>
+  
+    <p><span class="bold">Bill Bedingfield –  </span>He and his adult daughter contracted Covid a few weeks back. She is recovered and back home but he is up and down and still in the hospital. Not doing well. Sharon, his daughter, doesn’t have much hope left. Prayers.</p>
+    <hr>
+    
+<h3>Deaths</h3>
+    <h4 class="h4Head">Luther Kirk</h4>
+    <h4 class="h4Head">1956 - 2020</h4>
+    <img class="img40PercentCenter" src="./photos/LutherKirk.jpg"><p style="clear: both;"></p>
+      <p>It is always difficult saying goodbye to someone we love and cherish. Family and friends must say goodbye to their beloved Luther Kirk III (Dallas, Texas), who passed away at the age of 63, on October 2, 2020. You can send your sympathy in the guestbook provided and share it with the family. You may also light a candle in honor of Luther Kirk III or send a beautiful flower arrangement to the funeral service.</p>
+      <p>Visitation was held on Wednesday, October 7th 2020 from 1:00 PM to 4:00 PM at the Heavenly Gate Funeral Services (702 Gatewood Rd, Garland, TX 75043). A graveside service was held on Thursday, October 8th 2020 at 10:00 AM at the Dallas Fort Worth National Cemetery (2000 Mountain Creek Pkwy, Dallas, TX 75211).</p>
+      <p>Luther passed away resulting from a heart attack.</p>
+  
+  <h4 class="h4Head">Theron Scott Robinson</h4>
+  <h4 class="h4Head">1959 - 2020</h4>
+    <img class="img40PercentCenter" src="./photos/TheronRobinson.jpg"><p style="clear: both;"></p>
+    <p>It is with great sadness the family of Theron “Scott” Robinson announces his passing. Scott passed away peacefully on Friday, October 16, 2020 after complications from gallbladder surgery. A memorial service will be held at Genesis Church at 5780 Virginia Pkwy., McKinney, TX 75071 on October 27, 2020 at 6:30 PM. Scott was born in Dallas, Texas in January of 1959. He attended Mesquite High School and graduated in 1977. While working full time supporting his wife and two children he went on to earn a Bachelors' degree in Business Administration from Dallas Baptist University. </p>
+      
+   <p> He worked as a software engineer for over 29 years at Raytheon where he retired from in 2014 after having health issues.</p> 
+      
+    <p>    He loved to spend time with family and friends, fishing and listening to music. Scott could make friends with almost anyone. He would often meet someone at work, a restaurant or store, etc. and they would be going fishing with him soon thereafter. Scott is survived by his loving wife, Cynthia Robinson; his children, Christa Dennis and her husband, Aukai, and Jerad Robinson; his grandchildren, Mason and Landyn Dennis, and many good friends. If you wish to send flowers the church will accept deliveries on Tuesday, October 27, 2020 from 9:00 am to 4:00 pm.</p>
+    
+    <p>“A bad day of fishing is better than a good day at work.” -Unknown </p>
+  
+<h4 class="h4Head">Albert (Al) Gondran</h4>
+  <h4 class="h4Head">1928 – 2020</h4>
+  <img class="img40PercentCenter" src="./photos/AlGondran.jpg"><p style="clear: both;"></p>
+  <p>GONDRAN, Albert Age 92, of Heath, TX, died on October 22, 2020. Albert was born 6/30/1928. Graveside service will be 1:00pm Saturday 10/31/2020 at Wilder Cemetery in Naples, TX.</p>
+  
+    <hr>
+
+<h3>Announcements</h3>   
+
+<article>
+    <p> Darrell Lancaster proposed an idea to create a repository for retirees’ experiences and funny/interesting stories that later can be compiled into a collection and available for all to enjoy. We don’t want to lose these memories. </p>
+    <p><a href="./Stories/MyStory.html" target="_blank"><img src="./Stories/MyStoryButton250.jpg"></a>&nbsp;&nbsp;Submit your Garland ESY/Raytheon stories now!! </p>
+</article>
+    
+    
+<article>
+<h4>Historical Marker Update:</h4>
+    <p class="bold">Jim Gray told me he has made a connection, Mitch Bates – Asst. City Manager, that could open doors for our marker. Stay tuned for more info!</p>
+    <hr>
+</article>
+    
+<article>
+    <p><span class="emphasis">I have name tags for the following people. One line tags are $4.00 and two line tags are $5.00.</span> If anyone needs a name tag, please send your name (as you would like it on the name tag) to me, 
+        <a href="mailto:emmawahlstrom@aol.com">emmawahlstrom@aol.com</a> or text it to me at 469-475-4884. A second line is optional if you want to include your service dates.</p>
+    <div class="bold">
+    <ul>
+        <li>Gene Carlton</li>
+        <li>Sam Wilson</li>
+        <li>Chris Berry</li>
+        <li>Rick Lowe</li>
+        <li>Rich Marks</li>
+    </ul>
+    </div>
+    <hr>
+</article> 
+<articke>
+<p> </p>
+<p class="bold"><span class="strongEmpahsis">We are not sure when we will be able to meet again.  We will notify you when we are able to schedule a meeting.  Furr's cafeteria is open acccording to their website but, you are served at your table. Maybe we can wait and see how this works out.</span> </p>
+<p class="bold">I will resume collecting eye glasses for donation to the Lion’s Club once we can safely get together.<br>Thank you all who have donated</p>
+</articke>
+
+<p class="bold">Eileen Wahlstrom</p>
+</div>
+</div>
+    
+<div class="row">
+<div class="col-lg-12" style="background-color:Brown;">
+&nbsp; <br>
+</div>
+</div>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<hr>
+             
+<!-- This months meeting minutes end --> 
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<p class="notImportant">Note: We are an independent group of Garland E-Systems/Raytheon retirees and not affiliated with the Raytheon Corporation in any way.</p>
+</div>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+<!-- Right Column-->  
+<div class="col-lg-4">
+    <div class="boxOutline news">
+        <h3>Corona Virus Information Links:</h3>
+        <hr>
+    <ul>
+        <li><a href="https://www.medicare.gov/medicare-coronavirus#100">Medicare</a></li>
+        <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">CDC</a></li>
+        <li><a href="https://www.usa.gov/coronavirus">USA.gov</a></li>
+        <li><a href="https://www.dshs.state.tx.us/coronavirus/">Texas Health &amp; Human Services</a></li>
+        <li><a href="https://www.dallascounty.org/departments/dchhs/2019-novel-coronavirus.php">Dallas County Health &amp; Human Services</a></li>
+        <li><a href="https://www.collincountytx.gov/healthcare_services/Pages/news.aspx">Collin County Health &amp; Human Services</a></li>
+        </ul>
+    </div>
+    <br>
+    <article class="news">
+    <article class="boxOutline">
+        <h3 class="h3Head">News</h3>
+        <hr />
+        <ul>    
+            
+          <li>Unknown: Next Meeting</li>
+          <li>December 02: Arecibo radio telescope in Puerto Rico collapsed<a href="https://mailchi.mp/cb4690c01380/arecibo-collapse-video-history" target="_blank"> click here</a></li>
+          <li>November 29: John Eugene Manning passed away on November 29, 2020. For more information: <a href="https://www.resthavenfuneral.com/obituaries/John-Manning-18/#!/Obituary" target="_blank">Click Here</a></li>
+          <li>November 08: Summary of the Medicare Premium, Deductibles and Coinsurance Costs for 2021 is available at: <a href="https://mailchi.mp/6d3c83fa7bf8/medicare-premium-deductibles-and-coinsurance-costs-for-2021" target="_blank">Click Here</a></li>
+          <li>October 28: Bill Bedingfield passed away.  For more information: <a href="https://mailchi.mp/5dc3ef7ccdfb/billbedingfield-passed-away" target="_blank">Click Here</a></li>
+            <li>October 22: Al Gondran passed away. For more information: 
+          <a href="https://mailchi.mp/4983e1322718/al-gondran-passed-away", target="_blank">Click Here </a></li>
+            <li>October 02: Luther Krik passed away.  For more information: <a href="https://mailchi.mp/412781319e7e/luther-kirk-passed-away" target="_blank">Click Here </a></li>
+            <li>September 18: Raytheon plans to lay off over 15,000 people.  <a href="https://www.forbes.com/sites/jackkelly/2020/09/18/military-contractor-raytheon-cuts-15000-jobs-ceo-still-earns-millions/#622d83ab1869" target="_blank">Click here to read more</a> </li>
+            <li> September 12:  <a href="https://www.ucf.edu/news/update-on-arecibo-observatory-facility-after-telescope-damage/" target="_blank">Update on the damaged Arecibo Observatory </a></li>
+            <li>August 31: <a href="https://www.fool.com/investing/2020/08/27/dow-jones-the-real-reason-exxon-pfizer-and-raytheo/" target="_blank">Raytheon Technologies Exits the DJ Industrial Average</a></li>
+            <li>August 20: <a href="http://eastgate-garland.tributes.com/obituary/show/Jerry-Leon-Woody-108493719" target="_blank">Jerry Woody Passed Away</a></li>
+            <li>August 13: <a href="https://mailchi.mp/a6ca07b49105/herb-stringer-passed-away" target="_blank">Herb Stringer Passed Away</a></li>
+            <li>August 18: <a href="https://www.amazon.com/Life-Lessons-Observations-Musings-Elder-ebook/dp/B08DZT1HM5/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1597759309&sr=8-1" target="_blank">Mike Keebaugh Book</a></li>
+            <li>August 10: <a href="./Stories/Articles/E-SystemsHistory.pdf" target="_blank">E-Systems History</a></li>
+            <li>July 28:  <a href="https://www.seattletimes.com/business/raytheon-sheds-8000-aerospace-jobs-amid-collapse-in-air-travel/" target="_blank">Raytheon sheds 8,000 aerospace jobs</a></li>
+            <li>May 11: Blue Angels and Thunderbirds over NYC video: <a href="https://www.youtube.com/embed/1JESy0CnYPw" target="_blank">Click Here</a> - From Bobby Gambrell</li>
+            <li> May 11: Blue Angels Photos a Video from Richardson Methodist: <a href="https://flic.kr/s/aHsmN3P2TB" target="_blank">Click Here</a> - From Phil Ziegelbaum</li>
+            
+            <li>April 16: <a href="https://www.forbes.com/sites/lorenthompson/2020/04/02/five-reasons-raytheon-technologies-is-destined-to-dominate-aerospace--defense/#3b080ece3719" target="_blank">5 Reason Raytheon Technologies will Dominate Aerospace &amp; Defense</a></li>
+            <li>April 14: <a href="https://www.fool.com/investing/2020/03/30/raytheon-united-technologies-merger-gets-green-lig.aspx" target="_blank">Raytheon Stock Conversion Rate</a></li>
+             <li>March 27: <a href="https://www.airforcemag.com/raytheon-utc-merger-approved-creating-second-largest-defense-company/" target="_blank">Raytheon/UTC Merger Approved</a></li>
+             <li>February 19: <a href="https://www.forbes.com/sites/lorenthompson/2020/02/18/why-pratt--whitneys-f135-fighter-engine-will-be-the-most-important-military-franchise-raytheon-technologies-owns/#ed1437e3e917" target="_blank">F135 Engine valuable to Raytheon</a></li>
+            <li>January 09: Don Schools passed away</li>
+
+    
+        </ul>
+    </article>
+    </article>
+</div>
+</div>
+<div>
+    <!--This div just to add blank space between right column and footer when viewed from iPhone-->
+    &nbsp;
+</div>
+<!-- Footer -->
+<div id="footer">
+<div class="row">
+    <div class="col-lg-4">
+        <img src="./image/esyWorld.jpg" class="img-rounded" id="esyWorld" alt="ESY Pin 35 years">
+    </div>
+    <div class="col-lg-4" id="homeFooter">
+        E-Systems &amp; Raytheon <br>Garland Retirees
+    </div>
+    <div class="col-lg-4" id="footerContact">
+        Contact Us:<br>
+        <a href="mailto:emmawahlstrom@aol.com">Eileen</a><br>
+        <a href="mailto:esyraywebmaster@gmail.com">Marv</a>
+    </div>
+</div>
+</div>
+<!-- End Footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Not Found
+
+The requested URL /cgi-sys/FormMail.cgi was not found on this server.
+
+Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.
+
+This was the code:
+
+<ul class="nav navbar-nav navbar-right">
+     <li><a href="./contactUs.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+</ul>

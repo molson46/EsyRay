@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Contact Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap and jQuery links-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- My Customer styles-->
+    <link rel="stylesheet" href="./esyStyle.css" type="text/css"/>
+    <!-- ESY Favicon-->
+    <!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="/icons/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/icons/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/icons/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/icons/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
+	<link rel="apple-touch-icon" href="/icons/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/icons/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/icons/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/icons/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/icons/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/icons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/icons/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/icons/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/icons/favicon-144.png">
+	<meta name="msapplication-config" content="icons/browserconfig.xml">
+</head>
+  
+<body>
+    
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Header -->
+    <div class="container" id="mainHeader">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <img src="./image/ESYFlag.png" class="img-rounded" id="logo" alt="ESY Flag">
+            </div>
+            <div  class="col-sm-6 col-md-8 col-lg-9" id="homeHeader">
+                <p>E-Systems &amp; Raytheon Garland Retirees</p>
+                <div id="social">
+                    <a href="https://www.facebook.com/groups/ESystemsEmployees/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="E-Systems" /></a>
+                    <a href="https://www.facebook.com/groups/507745532617230/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="Rayhteon" /></a>
+                    <p id="socialAlpha">ESY &nbsp; &nbsp; &nbsp; Ray &nbsp; </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <p></p>
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-12" >
+                <div id="overideBackground">
+                <form action="./mailTheMessage.php" method="post">
+                    <fieldset>
+                    <legend>Contact Us</legend>
+                    <!-- <input name="redirect" type="hidden" value="http://www.esyray.com/index.html"> -->
+
+                    <p>
+                        <label class="field" for="name">Name: </label><input id="name" name="name" required autofocus /></p>
+                    <p>
+                        <label class="field" for="subject">Subject: </label><input id="subject" name="subject" required></p>
+                    <p>
+                        <label class="field" for="email">Email: </label><input id="email" type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label class="field" for="message">Message: </label><textarea id="message" name="message" rows="4" cols="50" placeholder="Enter message here" required></textarea>
+                    </p>
+                    <p>
+                        <input name="Submit" class="submit" type="submit" value="Send" background-color="blue">
+                    </p>
+                    </fieldset>
+                </form>
+                </div>
+            </div>
+            </div>
+            </div>
+    </body>
+</html>
