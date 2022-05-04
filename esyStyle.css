@@ -1,0 +1,751 @@
+/*******************************************************/
+/*
+/* Author: Marv Olson
+/* Date: Friday, May 8, 2015
+/* Updated
+/*  2018-01-03: Major re-order of elements and commented out one not used.
+/*
+/*******************************************************/
+
+/*******************************************************/
+/* General definitions
+/*******************************************************/
+
+body {
+    font-family: arial, helvetica, sans-serif;
+}
+
+p {
+    font-size: 120%;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5)
+}
+
+/*******************************************************/
+/* Header Definitions
+/*******************************************************/
+#logo {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#homeHeader {
+    text-align: center;
+    font-size: 250%;
+    font-weight:bold;
+    text-shadow: 2px 2px #D9D9D9;
+}
+
+#mainHeader {
+    background-color: #FFEFA4;
+    border-bottom: 5px solid brown;
+}
+
+#social {
+    text-align: right;
+}
+
+#socialAlpha {
+    font-size: 30%;
+}
+
+/*******************************************************/
+/* HTML header definitions
+/*******************************************************/
+
+h4 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.h1Head {
+	text-align: center;
+	font-weight: bolder;
+    font-size: 5em;
+    text-shadow: 4px 2px #a3a3c2;
+}
+
+.h2Head {
+	text-align: center;
+	font-weight: bolder;
+}
+.h3Head {
+    text-align: center;
+}
+
+
+.h4Head {
+    text-align: center;
+    font-size: 150%
+}
+
+/*******************************************************/
+/* Footer Elements
+/*******************************************************/
+
+#footer {
+    padding: 0.5em;
+	color: black;
+	background-color: #FFEFA4;
+	clear: left;
+    border-top: 5px solid brown;
+}
+
+#esyWorld {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#homeFooter {
+    text-align: center;
+    font-size: 140%;
+    font-weight:bold;
+    text-shadow: 2px 2px #D9D9D9;
+}
+
+#footerContact {
+    text-align: center;
+    font-size: 110%;
+}
+
+/*******************************************************/
+/* News column
+/*******************************************************/
+
+.news {
+    background-color: #FFE686;
+}
+
+.boxOutline {
+    border: 5px solid brown;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*******************************************************/
+/* Font Elements
+/*******************************************************/
+
+.bigBold {
+    text-decoration: underline;
+    font-size: 200%;
+}
+
+.danger {
+    color: red;
+}
+
+.bigger {
+    font-size: 1.5em;
+}
+
+.info {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bigP {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 125%;
+}
+
+.boldItalic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.emphasis {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.welcome {
+    font-weight: bold;
+    font-size: 200%;
+    color: #0D7735;
+    background-color: #FFEFA4;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #77120d;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+.strongEmpahsis {
+    color:red;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.centerP {
+    text-align:center;
+    font-weight: bold
+}
+
+.center {
+    text-align: center;
+    margin: 10px;
+}
+
+.notImportant {
+    color:gray;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.request {
+    color: green;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*******************************************************/
+/* Special
+/*******************************************************/
+
+
+#announce {
+    background-color: #FFE686;
+    font-style: italic;
+    font-size: 110%;
+    color: firebrick;
+}
+
+#rayBenefits {
+    font-size: 125%;
+    text-align: center;
+}
+
+#usefulLinks {
+    font-size: 125%;
+    margin-left: 25%;
+}
+
+#bottomBig {
+    font-size: 125%;
+    font-weight: bolder;
+    vertical-align: bottom;
+}
+
+.wholeWidth {
+    width: 100%;
+    display: block;
+}
+
+.notice {
+    width: 50%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFE686;
+    text-align: center;
+    color: firebrick;
+    font-size: 1.25em;
+}
+
+.noBackground {
+    background-color: #FFF;
+}
+
+.story {
+    background-color: #FFFFFF;
+}
+
+.contacts {
+    background-color: #FFE686
+}
+
+
+.archive {
+    color:orange;
+    font-weight: bold;
+}
+
+.inArticleAnnounce {
+    color:red;
+    font-weight: bold;
+}
+
+.importantAnnounce {
+    color:red;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.photoText {
+    text-align: center;
+    font-size: 250%;
+    font-weight:bold;
+    text-shadow: 2px 2px #D9D9D9;
+    vertical-align: middle;
+}
+
+.box {
+    height: 300px;
+}
+
+#photoNarrative {
+    background-color: #FFE686;
+    font-style: italic;
+    font-size: 120%;
+    color: firebrick;
+}
+
+/*******************************************************/
+/* Google Search
+/*******************************************************/
+
+
+.gcse-searchbox {
+    margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*******************************************************/
+/* Image classes
+/*******************************************************/
+
+.img40PercentWidth {
+	width  : 40%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.whiteBackground {
+    background-color: #FFFFFF;
+}
+
+.img40Percent {
+	width  : 40%;
+    padding: 25px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: 25px;
+    float: left;
+}
+
+.img40PercentCenter {
+    width: 40%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img50PercentCenter {
+    width: 50%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img50Percent {
+    width: 50%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img60Percent {
+    width: 60%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img60PercentCenter {
+    width: 60%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img75Percent {
+    width: 75%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img80PercentCenter {
+    width: 80%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img90Percent {
+    width: 90%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img25Percent {
+    width: 25%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img40Percent {
+    width: 40%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obitSize {
+    width  : 40%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+    box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 25px;
+    border-right: 25px;
+}
+
+img.obitSize {
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+    box-shadow: 1px 1px 15px #999999;
+	display: block;
+    width:50%;
+    border-bottom: 25px;
+    border-right: 25px;
+}
+
+.smallPhotos {
+	width  : 25%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.regularPhotos {
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+}
+
+img.mediumSize {
+    width:450px;
+    border-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+	float: left;
+    margin: 20px;
+	width: 330px
+}
+
+figure img {
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+    box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#wideFigure {
+    width:100%;
+    height:240px;
+    float:left;
+}
+
+img.resize {
+    width:300px;
+    border-bottom: 25px;
+}
+
+.halfHeight {
+    height:300px;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+
+.photoIcon {
+    width: 10%;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*******************************************************/
+/* Contact Us form section
+/*******************************************************/
+
+div.fieldset {
+    width: 500px;
+    border: solid black thin;
+    background-color: #ffffb0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 2em;
+    background-color: #77120d;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label.field {
+    text-align: right;
+    font-weight: bold;
+    width: 100px;
+    float: left;
+    vertical-align: top;
+    color: #525252;
+}
+
+fieldset p {
+    clear: both;
+    padding: 5px;
+}
+
+#overideBackground {
+    background-color: #FFEFA4;
+}
+
+input[type="submit"] {
+    -moz-appearance: button;
+    -moz-binding: none;
+    -moz-box-sizing: border-box;
+    -moz-user-select: none;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    background-color: #77120d;
+    border: 2px outset buttonface;
+    color: buttontext;
+    cursor: default;
+    font: -moz-button;
+    /*line-height: normal;*/
+    padding: 0 6px;
+    text-align: center;
+    text-shadow: none;
+    white-space: pre;
+    width: 6em;  height: 3em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    hover {background-color: #3e8e41}
+}
+
+.submit {
+
+}
+
+input:active {
+    background-color: #A0312C;
+}
+
+input:hover {
+    color: #C95D57;
+}
+
+/*******************************************************/
+/* Not sure what this is but afraid to take it out
+/*******************************************************/
+@media screen and (max-width: 767px) {
+  table caption {
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+/*******************************************************/
+/* Elements not used as near as I can tell
+/*******************************************************/
+
+/*
+
+#newslist {
+    font-style: normal;
+    font: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+
+#newsFlash {
+    border: 5px solid brown;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 110%;
+    background-color: #FFEAAA;
+    margin-bottom: 25px;
+}
+
+#SiteLunch {
+    background-color: brown;
+    color:blueviolet;
+}
+
+.bigFirst:first-letter {
+  font-size: 200%;
+  color: #000;
+  background-color: #EEEEEE;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.btn-text {
+    color: black;
+}
+
+.retireeLetter {
+    padding: 25px;
+}
+
+.demo {
+  margin: 20px;
+  width: 40%;
+}
+
+.obituary {
+    margin-left: auto; margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+*/
+
+.oneColumn {
+    border: 5px solid brown;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banner {
+    background-color: #FFE686;
+    font-style: italic;
+    font-size: 150%;
+    font-weight: bold;
+    color: firebrick;
+    text-align: center;
+}
+
+.makeSpace {
+    padding: 25px;
+}
+
+.lookLikeAButton {
+    text-align: center;
+    font: bold 30px Arial;
+    color: firebrick;
+    text-decoration: none;
+    background-color: #FFE686;
+    padding: 10px;
+    border: 5px solid firebrick;
+    border-radius: 15px;
+
+}
+
+.storybutton {
+  width: 10%;  
+}
+
+.makeRoom {
+    border: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.newsIcon {
+    font-size: 1.5em;
+    text-decoration-line: underline;
+}
+
+.btn-huge{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blockquoteBar {
+    border-left: 5px solid darkgray;
+}

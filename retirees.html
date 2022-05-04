@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Author: Tom White
+        Updated: Marv Olson starting Friday, May 8, 2015
+                Redesign and implement web site using Bootstrap 
+    -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>E-Systems/Raytheon Retirees</title>
+    <!--+++Start replace+++-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--Start Common Header-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap and jQuery links-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- My Customer styles-->
+    <link rel="stylesheet" href="./esyStyle.css" type="text/css"/>
+    <!-- ESY Favicon-->
+    <!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="/icons/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/icons/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/icons/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/icons/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
+	<link rel="apple-touch-icon" href="/icons/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/icons/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/icons/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/icons/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/icons/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/icons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/icons/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/icons/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/icons/favicon-144.png">
+	<meta name="msapplication-config" content="icons/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->
+</head>
+  
+<body>
+    
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Header -->
+    <div class="container" id="mainHeader">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <img src="./image/ESYFlag.png" class="img-rounded" id="logo" alt="ESY Flag">
+            </div>
+            <div  class="col-sm-6 col-md-8 col-lg-9" id="homeHeader">
+                <p>E-Systems &amp; Raytheon Garland Retirees</p>
+                <div id="social">
+                    <a href="https://www.facebook.com/groups/ESystemsEmployees/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="E-Systems" /></a>
+                    <a href="https://www.facebook.com/groups/507745532617230/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="Rayhteon" /></a>
+                    <p id="socialAlpha">ESY &nbsp; &nbsp; &nbsp; Ray &nbsp; </p>
+                </div>
+            </div>
+        </div>
+    </div>
+                           
+    <!-- Navigation Bar-->  
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ESY Retiree</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Monthly Meetings <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./wwh.html">When, where, how</a></li>
+                <li><a href="./RetireesHistory.html">History</a></li>
+                <li><a href="./PreviousMeetings.html">Previous Meetings</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Retirees <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./retireeList/RetireesList.pdf">Retiree List</a></li>
+                <li><a href="ListPW.jpg">User Name/Password for Retiree List </a></li>
+                <li><a href="./deceasedList/Deaths%20-%20Deceased.pdf">Deceased List</a></li>
+                <li><a href="groupPhotos.html">Retiree Photos</a></li>
+                <li><a href="./ersthalerWWIIDiary/WRE%20Diary%202015%20A.pdf" >Bill Ersthaler's WWII Diary</a></li>
+                <li><a href="LettersFromRetirees.html">Retiree Letters</a></li>
+            </ul>
+            </li>
+            <li><a href="./obituaries.html">Obituaries</a></li>
+            <li><a href="./raytheonBenefits.html">Forms/Benefits</a></li>
+            <li><a href="./mailchimpSubscribe.html">Subscribe</a></li>
+            <li><a href="./usefulLinks.html">Useful Links</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="./contactUs.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+        </ul>
+    </div> 
+  </div>
+</nav>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Google Search Box -->
+<div class="gcse-searchbox">
+<script>
+  (function() {
+    var cx = '012621257295864788119:jzxjcwuba_s';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<br>
+</div>  
+<!--End common header-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--+++Stop replace+++-->
+
+
+
+    
+<div class="container">
+    <div class="row">
+        <!-- Left Column -->
+        <div class="col-lg-7" style="background-color:white;">
+            <article>
+                <h2 class="h2Head">Retiree List</h2>
+                <p class="bigFirst">We maintain a list of retirees along with address, email, 
+                    and phone number if we have them. The Retirees List is posted in encrypted Adobe Reader 
+                    PDF format and requires a password to access it to keep spammers from getting our email addresses.</p>
+                <p class="bigFirst">Click here to view the list:
+                    <a href="./retireeList/RetireesList.pdf" target="_blank" class="btn btn-primary" role="button">Retiree List</a></p>
+                <p> <a href="ListPW.jpg" target="_blank" >Click here</a><a href="ListPW.jpg"> </a> for the user name/password.
+                    If your computer does not have Adobe Reader, you can download a free copy by 
+                    <a href="http://www.adobe.com/products/acrobat/readstep2.html">clicking here.</a></p>
+                <hr />
+            </article>
+            <article>
+                <h2 class="h2Head">Deceased List</h2>
+                <p class="bigFirst">Some of our retirees have passed on and are now with the Big Engineer Heaven. 
+                    Click here for a list: 
+                    <a href="./deceasedList/Deaths%20-%20Deceased.pdf" target="_blank" class="btn btn-primary" role="button">Deceased List</a></p>
+                <p>If you know of anyone that we have not listed, please <a href="mailto:esyraywebmaster@gmail.com">Click Here</a></p>
+                <hr />
+            </article>
+            <article>
+                <h2 class="h2Head">William Ersthaler's WWII Diary</h2>
+                <P class="bigFirst">After Bill passed away his son, Paul, generously lent us Bill's World War II Diary. Click here to read:
+                    <a href="./ersthalerWWIIDiary/WRE%20Diary%202015%20A.pdf" target="_blank" class="btn btn-primary" role="button">Bill's Diary</a></p>
+                <p>Note: The username and passwords are the same as for the Retiree List</p>
+                <hr />
+            <article>
+                <h2 class="h2Head">Retiree Photo Gallery</h2>
+                <p class="bigFirst">Over the years we've collected photos of retiree events and retirees in general.  Click here to view: <a href="groupPhotos.html" target="_blank">Retiree Photos</a></p>
+                <hr />
+            </article>
+            <article>
+                <h2 class="h2Head">Letters from Retirees</h2>
+                <p class="bigFirst">From time to time we receive letters from retirees. Click here to read: 
+                    <a href="LettersFromRetirees.html" target="_blank">Letters from retirees.</a></p>
+                <p><a href="mailto:esyraywebmaster@gmail.com">Contact Webmaster with problems, suggestions, 
+                    items of interest or letters to be included.</a>
+                </p>
+                <hr />
+            </article>
+
+            </article>
+        </div>
+        <div class="col-lg-5" style="background-color:white;">
+            <article class="contacts">
+            <article class="boxOutline">
+                <h3 class="h3Head">Retiree List Changes</h3>
+                <p>For additions, deletions, &amp; changes to either the <span class="bold">Retiree List</span>
+                    or the <span class="bold">Deceased List</span>: <a href="mailto:esyraywebmaster@gmail.com">
+                    Click Here</a> or call Marv Olson at 972-974-5552.</p>
+                <hr />
+                <h3 class="h3Head">Notification Service</h3>   
+                <p>We publish notices of upcoming events and other items of interest from time to to time.  You will receive notifications if your name and email are on the <span class="bold">Retiree List</span> unless you have opted out. If you are not receiving notifications and wish to contact me at: <a href="mailto:esyraywebmaster@gmail.com">Marv</a></p>
+                <p>You can unsubscribe at any time by clicking the unsubscribe button at the bottom of a notification.</p>
+                <hr />
+                <h3 class="h3Head">Questions/Comments</h3>
+                <P>For any questions, comments, or suggestions please contact contact Marv Olson via 
+                <a href="mailto:esyraywebmaster@gmail.com">email</a> phone at 972-974-5552.</P>
+            </article>
+            </article>
+        </div>
+    </div>
+<div>
+    <!--This div just to add blank space between right column and footer when viewed from iPhone-->
+    &nbsp;
+</div>
+<!-- Footer -->
+<div id="footer">
+<div class="row">
+    <div class="col-lg-4">
+        <img src="./image/esyWorld.jpg" class="img-rounded" id="esyWorld" alt="ESY Pin 35 years">
+    </div>
+    <div class="col-lg-4" id="homeFooter">
+        E-Systems &amp; Raytheon <br>Garland Retirees
+    </div>
+    <div class="col-lg-4" id="footerContact">
+        Contact Us:<br>
+        <a href="mailto:emmawahlstrom@aol.com">Eileen</a><br>
+        <a href="mailto:esyraywebmaster@gmail.com">Marv</a>
+    </div>
+</div>
+</div>
+</div>
+<!-- End Footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</body>
+</html>

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "retireeList"
+AuthUserFile "/home/esyrayco/.htpasswds/public_html/retireeList/passwd"
+require valid-user

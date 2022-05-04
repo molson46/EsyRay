@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Author: Tom White
+        Updated: Marv Olson starting Friday, May 8, 2015
+                Redesign and implement web site using Bootstrap 
+    -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>E-Systems/Raytheon Retirees</title>
+    <!--+++Start replace+++-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--Start Common Header-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap and jQuery links-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- My Customer styles-->
+    <link rel="stylesheet" href="./esyStyle.css" type="text/css"/>
+    <!-- ESY Favicon-->
+    <!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="/icons/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/icons/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/icons/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/icons/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
+	<link rel="apple-touch-icon" href="/icons/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/icons/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/icons/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/icons/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/icons/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/icons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/icons/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/icons/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/icons/favicon-144.png">
+	<meta name="msapplication-config" content="icons/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->
+</head>
+  
+<body>
+    
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Header -->
+    <div class="container" id="mainHeader">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <img src="./image/ESYFlag.png" class="img-rounded" id="logo" alt="ESY Flag">
+            </div>
+            <div  class="col-sm-6 col-md-8 col-lg-9" id="homeHeader">
+                <p>E-Systems &amp; Raytheon Garland Retirees</p>
+                <div id="social">
+                    <a href="https://www.facebook.com/groups/ESystemsEmployees/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="E-Systems" /></a>
+                    <a href="https://www.facebook.com/groups/507745532617230/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="Rayhteon" /></a>
+                    <p id="socialAlpha">ESY &nbsp; &nbsp; &nbsp; Ray &nbsp; </p>
+                </div>
+            </div>
+        </div>
+    </div>
+                           
+    <!-- Navigation Bar-->  
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ESY Retiree</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Monthly Meetings <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./wwh.html">When, where, how</a></li>
+                <li><a href="./RetireesHistory.html">History</a></li>
+                <li><a href="./PreviousMeetings.html">Previous Meetings</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Retirees <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./retireeList/RetireesList.pdf">Retiree List</a></li>
+                <li><a href="ListPW.jpg">User Name/Password for Retiree List </a></li>
+                <li><a href="./obituaries.html">Obituaries</a></li>
+                <li><a href="./deceasedList/Deaths%20-%20Deceased.pdf">Deceased List</a></li>
+                <li><a href="groupPhotos.html">Retiree Photos</a></li>
+                <li><a href="LettersFromRetirees.html">Retiree Letters</a></li>
+            </ul>
+            </li>
+            <li><a href="./Photos.html">Photos</a></li>
+            <li><a href="./Stories.html">Stories</a></li>
+            <li><a href="./raytheonBenefits.html">Forms/Benefits</a></li>
+            <li><a href="./mailchimpSubscribe.html">Subscribe</a></li>
+            <li><a href="./usefulLinks.html">Useful Links</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="./contactUs.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+        </ul>
+    </div> 
+  </div>
+</nav>
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Google Search Box -->
+<div class="gcse-searchbox">
+<script>
+  (function() {
+    var cx = '012621257295864788119:jzxjcwuba_s';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<br>
+</div>  
+<!--End common header-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->    <!--+++Stop replace+++-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<h2 class="h2Head">Site Retiree Luncheon, September 23, 2015</h2>
+ 	<p class="bigFirst">Raytheon hosted a luncheon at the Garland Site for the ESY/RAY Retirees. A good time was had by all.</p>
+    <p class="bigFirst">Thank you <span class="emphasis">Todd Carr</span> for the photos</p>
+    <p class="bigFirst">Click on any photo to view a larger version</p>
+    <hr>
+</div>
+</div>
+    
+<div class="row">
+<div class="col-lg-12" style="background-color:white;">
+    <figure id="wideFigure">
+        <a href="./2015SiteLuncheon.html" target="_blank"><img src="./201509SiteLuncheon/SeptemberPanorama-med.jpg"></a>   
+    </figure>
+</div>
+</div> 
+<div class="row" >
+<div class="col-lg-4" >
+   <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon01_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon01_email-sm.jpg"></a>   </figure>   
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon02_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon02_email-sm.jpg"></a> </figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon03_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon03_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon04_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon04_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon05_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon05_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon06_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon06_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon07_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon07_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon08_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon08_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon09_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon09_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon10_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon10_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon12_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon12_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon13_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon13_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon14_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon14_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon15_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon15_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon16_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon16_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon17_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon17_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon18_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon18_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon19_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon19_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon20_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon20_email-sm.jpg"></a></figure> 
+</div>
+    
+<div class="col-lg-4" >
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon21_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon21_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon22_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon22_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon23_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon23_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon24_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon24_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon27_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon27_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon28_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon28_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon59_email.jpg_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon59_email-sm.jpg"></a></figure>
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon29_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon29_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon30_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon30_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon31_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon31_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon32_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon32_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon33_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon33_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon34_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon34_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon35_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon35_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon36_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon36_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon37_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon37_email-17.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon38_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon38_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon39_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon39_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon40_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon40_email-sm.jpg"></a></figure> 
+</div>   
+    
+<div class="col-lg-4" >
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon41_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon41_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon42_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon42_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon43_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon43_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon44_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon44_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon45_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon45_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon46_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon46_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon47_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon47_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon48_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon48_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon49_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon49_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon50_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon50_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon51_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon51_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon52_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon52_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon53_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon53_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon54_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon54_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon55_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon55_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon56_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon56_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon57_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon57_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon58_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon58_email-sm.jpg"></a></figure> 
+    <figure><a href="./201509SiteLuncheon/20150923-2015RetireeLuncheon59_email.jpg" target="_blank"><img src="./201509SiteLuncheon/20150923-2015RetireeLuncheon59_email-sm.jpg"></a></figure> 
+</div>
+
+    
+</div>
+</div>
+<!-- Footer -->
+<div id="footer">
+<div class="row">
+    <div class="col-lg-4">
+        <img src="./image/esyWorld.jpg" class="img-rounded" id="esyWorld" alt="ESY Pin 35 years">
+    </div>
+    <div class="col-lg-4" id="homeFooter">
+        E-Systems &amp; Raytheon <br>Garland Retirees
+    </div>
+    <div class="col-lg-4" id="footerContact">
+        Contact Us:<br>
+        <a href="mailto:emmawahlstrom@aol.com">Eileen</a><br>
+        <a href="mailto:esyraywebmaster@gmail.com">Marv</a>
+    </div>
+</div>
+</div>
+<!-- End Footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</body>
+</html>
+    

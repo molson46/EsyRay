@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Author: Tom White
+        Updated: Marv Olson starting Friday, May 8, 2015
+                Redesign and implement web site using Bootstrap 
+    -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Retirees History</title>
+    <!--+++Start replace+++-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--Start Common Header-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap and jQuery links-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- My Customer styles-->
+    <link rel="stylesheet" href="./esyStyle.css" type="text/css"/>
+    <!-- ESY Favicon-->
+    <!-- ****** faviconit.com favicons ****** -->
+	<link rel="shortcut icon" href="/icons/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/icons/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/icons/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/icons/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
+	<link rel="apple-touch-icon" href="/icons/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/icons/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/icons/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/icons/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/icons/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/icons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/icons/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/icons/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/icons/favicon-144.png">
+	<meta name="msapplication-config" content="icons/browserconfig.xml">
+	<!-- ****** faviconit.com favicons ****** -->
+</head>
+  
+<body>
+    
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Header -->
+    <div class="container" id="mainHeader">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <img src="./image/ESYFlag.png" class="img-rounded" id="logo" alt="ESY Flag">
+            </div>
+            <div  class="col-sm-6 col-md-8 col-lg-9" id="homeHeader">
+                <p>E-Systems &amp; Raytheon Garland Retirees</p>
+                <div id="social">
+                    <a href="https://www.facebook.com/groups/ESystemsEmployees/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="E-Systems" /></a>
+                    <a href="https://www.facebook.com/groups/507745532617230/" 
+                        target="_blank"><img src="./image/FB-f-Logo__blue_29.png" alt="Facebook" title="Rayhteon" /></a>
+                    <p id="socialAlpha">ESY &nbsp; &nbsp; &nbsp; Ray &nbsp; </p>
+                </div>
+            </div>
+        </div>
+    </div>
+                           
+    <!-- Navigation Bar-->  
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ESY Retiree</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Monthly Meetings <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./wwh.html">When, where, how</a></li>
+                <li><a href="./RetireesHistory.html">History</a></li>
+                <li><a href="./PreviousMeetings.html">Previous Meetings</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Retirees <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./retireeList/RetireesList.pdf">Retiree List</a></li>
+                <li><a href="ListPW.jpg">User Name/Password for Retiree List </a></li>
+                <li><a href="./obituaries.html">Obituaries</a></li>
+                <li><a href="./deceasedList/Deaths%20-%20Deceased.pdf">Deceased List</a></li>
+                <li><a href="groupPhotos.html">Retiree Photos</a></li>
+                <li><a href="LettersFromRetirees.html">Retiree Letters</a></li>
+            </ul>
+            </li>
+            <li><a href="./Photos.html">Photos</a></li>
+            <li><a href="./Stories.html">Stories</a></li>
+            <li><a href="./raytheonBenefits.html">Forms/Benefits</a></li>
+            <li><a href="./mailchimpSubscribe.html">Subscribe</a></li>
+            <li><a href="./usefulLinks.html">Useful Links</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="./contactUs.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+        </ul>
+    </div> 
+  </div>
+</nav>
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Google Search Box -->
+<div class="gcse-searchbox">
+<script>
+  (function() {
+    var cx = '012621257295864788119:jzxjcwuba_s';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<br>
+</div>  
+<!--End common header-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--+++Stop replace+++-->
+
+
+
+    
+<div class="container">
+<div class="row">
+<div class="col-lg-12" style="background-color:white;">
+    <h2 class="h2Head">History of the Retirees Luncheon Meeting</h2>
+    
+        <h3 class="h3Head">STILL TOGETHER AFTER ALL THESE YEARS by Charles Tipton</h3>
+        <h4 class="h4Head">with updates by Tom White and Marv Olson</h4>
+    <hr />
+<div class="story">
+<p class="bigFirst">Maybe it's a little parochial, but it has always seemed like
+the
+folks who worked at E-Systems were a little bit special; more like
+"family" than co-workers, and it's always a sad thing to loose touch
+with friends you have developed over the years. People you have known
+for 10, 20, 30 years or more! It was that thought in 1989 that
+motivated Bob Ross, Benny Poarch and Charles Tipton to try and
+organize a regular luncheon meeting for the E-Systems Garland
+Division Retirees.</p>
+
+<p class="bigFirst">With major help from the Garland Personnel Department, a
+mailing
+list of retirees was compiled and a notice was sent out far and wide
+inviting fellow retirees to a luncheon to be held on the last
+Wednesday of each month. The first luncheon was January 31, 1990 and
+there was an impressive showing. About 140 of the "old hands" and
+their spouses gathered together to catch up on what the others had
+been doing and life in general. Just like the little battery bunny,
+these luncheons have just kept on going.</p>
+
+<p class="bigFirst">The attendance at subsequent meetings has never quite equaled
+that
+of the first, but it always runs somewhere between 60 and 100 with
+the average typically in the eighties. About half or more of those
+who congregate each month are regulars who wouldn't consider missing
+the event. Of course, you never know who will be in the other half of
+the attendees, and as a consequence, no two meetings are ever the
+same.</p>
+
+<p class="bigFirst">Mostly these are social meetings, much like an old fashioned
+"dinner on the grounds" with a whole lot of talking and reminiscing
+going on. However, there are always a few items on the agenda besides
+eating and visiting. About the time that everyone has finished
+eating, the ad-hoc leader takes the floor to take care of those
+items. For several years this chore was handled by Benny Poarch and
+Bob Ross, then Bob Sales and for many years the meetings were conducted by the more than capable
+hands of Dottie Vaughn.  Now, Eileen Walhstrom conducts the meeting.  We applaud Dottie for making us act like adults for many years and Eileen for 
+    agreeing to accept the torch and carry on.</p>
+
+<p class="bigFirst">Usually, the first item of business is a head count of those at
+the luncheon with recognition of the first timers. This is followed
+by a list of the new retirees who have joined our ranks and sadly a
+list of the E-Teamers (current or retired) who have passed away since
+our last meeting. Next on the agenda are announcements (both from the
+chair and the floor) of items believed to be of interest to the group
+(Employees' Club activities for example). However, from time to time
+some specialist (Benefits for example) is invited to the meeting to
+explain issues that affect the retirees.</p>
+
+<p class="bigFirst">The rules for admittance to these luncheons are pretty
+stringent:
+you have to have worked for E-Systems, Raytheon, or one of the
+predecessor companies, or know somebody that did and buy your own
+lunch.
+</p>
+
+<p class="bigFirst">The site of the luncheons has shifted around a little over the
+course of the years. For the first year of so the meetings were held
+at Wyatts Cafeteria located at the old Northlake Center until
+scheduling conflicts caused a move to the Wyatts at Centerville and
+I-635 and were held there until that unit closed. The luncheons were
+then held at Ryan's Steakhouse located at 3301 West Buckingham (just
+east of Jupiter) in Garland. When it closed we moved to Furr's
+Cafeteria at NW Hwy and Saturn.&nbsp; When Furr's closed we moved to
+The Golden Corral at 11917 E. NW Hwy.  <span class="bold">We now meet at the Furr's Fresh Buffet at 1540 Eastgate Drive, Garland, TX 75041.</span>
+</p>
+
+<p class="bigFirst">These meetings begin with eating at
+about 11:00 AM and usually wind down by 12:30 PM. If you are an
+E-Systems/Raytheon retiree and have not attended one of these
+meetings, you just might be missing something. So, mark the last
+Wednesday of each month on your calendar and make the next meeting.
+For a door prize we will give you a list of the (consenting) members
+and their addresses. Ya'll come! </p>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div id="footer">
+<div class="row">
+    <div class="col-lg-4">
+        <img src="./image/esyWorld.jpg" class="img-rounded" id="esyWorld" alt="ESY Pin 35 years">
+    </div>
+    <div class="col-lg-4" id="homeFooter">
+        E-Systems &amp; Raytheon <br>Garland Retirees
+    </div>
+    <div class="col-lg-4" id="footerContact">
+        Contact Us:<br>
+        <a href="mailto:emmawahlstrom@aol.com">Eileen</a><br>
+        <a href="mailto:esyraywebmaster@gmail.com">Marv</a>
+    </div>
+</div>
+</div>
+<!-- End Footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</div>
+</body>
+</html>
