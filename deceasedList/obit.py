@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Build Obtiaries Page for esyray.com
 # Created: 2017-12-19
 
