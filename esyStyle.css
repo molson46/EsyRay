@@ -633,59 +633,7 @@ input:hover {
   }
 }
 
-/*******************************************************/
-/* Elements not used as near as I can tell
-/*******************************************************/
 
-/*
-
-#newslist {
-    font-style: normal;
-    font: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-    font-size:14px;
-}
-
-#newsFlash {
-    border: 5px solid brown;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 110%;
-    background-color: #FFEAAA;
-    margin-bottom: 25px;
-}
-
-#SiteLunch {
-    background-color: brown;
-    color:blueviolet;
-}
-
-.bigFirst:first-letter {
-  font-size: 200%;
-  color: #000;
-  background-color: #EEEEEE;
-  padding-right: 5px;
-  margin-right: 5px;
-}
-
-.btn-text {
-    color: black;
-}
-
-.retireeLetter {
-    padding: 25px;
-}
-
-.demo {
-  margin: 20px;
-  width: 40%;
-}
-
-.obituary {
-    margin-left: auto; margin-right: auto;
-    background-color: #FFFFFF;
-}
-
-*/
 
 .oneColumn {
     border: 5px solid brown;
